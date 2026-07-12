@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TikTok OAuth Callback - Barcanto AI</title>
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/">Barcanto AI</a>
+    <nav aria-label="Primary navigation">
+      <a href="/terms.html">Terms</a>
+      <a href="/privacy.html">Privacy</a>
+    </nav>
+  </header>
+  <main class="panel">
+    <p class="eyebrow">Authorized setup</p>
+    <h1>TikTok OAuth Callback</h1>
+    <p>This page supports authorized Barcanto Crosspost setup for the TikTok Content Posting API.</p>
+    <p id="status">Waiting for TikTok callback parameters.</p>
+    <p class="small">Do not send authorization codes, callback URLs, tokens, or client secrets in chat. Use only the local setup tool on the authorized operator machine.</p>
+    <code id="output" class="callback-output"></code>
+  </main>
+  <footer><span>© 2026 Barcanto AI</span><span><a href="/">Home</a></span></footer>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const status = document.getElementById("status");
+    const output = document.getElementById("output");
+    const code = params.get("code");
+    const error = params.get("error");
+    if (code) {
+      status.textContent = "Authorization code received. Return to the local setup tool on the authorized operator machine.";
+      output.textContent = "Code present in URL query. Do not share it in chat.";
+    } else if (error) {
+      status.textContent = "TikTok returned an OAuth error.";
+      output.textContent = error;
+    } else {
+      status.textContent = "No OAuth code is present yet.";
+      output.textContent = "Expected route: https://barcanto.ai/oauth2callback";
+    }
+  </script>
+</body>
+</html>
