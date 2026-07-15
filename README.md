@@ -2,7 +2,7 @@
 
 Static website package for `https://barcanto.ai/`.
 
-The current local rebuild presents Barcanto as a modular AI service platform: customers start with one practical service (Inbox Cleanup), then unlock additional skills as their needs grow. See `PRODUCT_DIRECTION.md` for the product starting point and staged build order.
+The current local integration keeps Barcanto’s established dark-blue robot/control-system identity while presenting the modular AI service platform: customers start with one practical service (Inbox Cleanup), then unlock additional skills as their needs grow. See `PRODUCT_DIRECTION.md` for the product starting point and staged build order.
 
 ## Contents
 
