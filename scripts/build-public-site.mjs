@@ -19,6 +19,7 @@ const files = [
   'tiktokO50zu9Bbrg0HO5HFjcPgyiiDFJIUZ2T4.txt',
   'tiktokWuHCOtIQQmStvGPmBxaJvTKGicsgdl5W.txt',
   'oauth2callback/index.html',
+  'assets/images/barcanto-b-city-concept-2026.png',
   'assets/images/barcanto-cinematic-coast-2026.png',
 ];
 
