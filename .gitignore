@@ -1,8 +1,13 @@
 .DS_Store
+.studio-data/
+public/
+node_modules/
 .local-backups/
+.speech-runtime/
 barcanto-modular-*-preview.png
 barcanto-modular-*-full.png
 barcanto-modular-*-contact.jpg
 barcanto-integration-*-preview.png
 barcanto-integration-*-full.png
 barcanto-integration-*-contact.jpg
+.studio-supervisor/
