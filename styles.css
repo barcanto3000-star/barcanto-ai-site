@@ -504,3 +504,7 @@ body { background: radial-gradient(circle at 82% 8%, rgba(0, 91, 255, .15), tran
   .character-visual-image span { width: 130px; height: 130px; font-size: 68px; }
   .director-page .early-card { padding: 46px 22px; }
 }
+
+/* Preserve the supplied Barcanto mark without the legacy text badge. */
+.brand-mark-image { flex-shrink: 0; background: transparent; border-radius: 0; box-shadow: none; clip-path: none; }
+.brand-mark-image img { display: block; width: 100%; height: 100%; object-fit: contain; }
