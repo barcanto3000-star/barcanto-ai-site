@@ -136,7 +136,7 @@ h1 em, h2 em { font-style: normal; font-weight: 700; }
 .site-footer nav { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 18px 28px; max-width: 650px; }
 .site-footer nav a { color: #e0e5d9; font-size: 14px; }
 .site-footer nav a:hover { color: var(--accent); }
-.site-footer > small { grid-column: 1 / -1; padding-top: 30px; border-top: 1px solid var(--line-dark); color: #9aa799; font-size: 13px; }
+.site-footer > small { grid-column: 1 / -1; padding-top: 30px; border-top: 1px solid var(--line-dark); color: var(--accent-blue); font-size: 13px; }
 
 @media (max-width: 1050px) {
   .site-header { gap: 20px; }
