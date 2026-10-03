@@ -1,0 +1,335 @@
+{
+ "version": 1,
+ "film": {
+  "width": 1280,
+  "height": 720,
+  "clipSeconds": 5.04,
+  "crossfade": 0.8,
+  "titleSeconds": 3.2,
+  "endSeconds": 4.2,
+  "label": "5 clips · 1280×720 canvas",
+  "honest": "All shots were rendered ahead of time on a Mac Studio. Your cut (one of 120 possible orders) is stitched live in this browser: crossfades, title and end cards, and the audio you pick."
+ },
+ "tracks": [
+  {
+   "id": "sunny-propeller",
+   "title": "Sunny Propeller",
+   "mood": "Whimsical",
+   "file": "music/sunny-propeller.m4a?v=6912ea18"
+  },
+  {
+   "id": "dune-horizon",
+   "title": "Dune Horizon",
+   "mood": "Adventure · epic",
+   "file": "music/dune-horizon.m4a?v=d0545f45"
+  },
+  {
+   "id": "firefly-lullaby",
+   "title": "Firefly Lullaby",
+   "mood": "Cozy",
+   "file": "music/firefly-lullaby.m4a?v=b43022ee"
+  }
+ ],
+ "sets": [
+  {
+   "id": "pip",
+   "title": "Pip's Big Lift-Off",
+   "tagline": "A Propeller Pop story",
+   "logline": "Pip, the one-eyed propeller puff from Propeller Pop, dreams of flying over Hilltop Town.",
+   "accent": "#c9f46b",
+   "defaultTrack": "sunny-propeller",
+   "tracks": [
+    "sunny-propeller",
+    "dune-horizon",
+    "firefly-lullaby"
+   ],
+   "shots": [
+    {
+     "id": "01-dreaming",
+     "title": "Dreaming of the Sky",
+     "line": "At sunrise, Pip watches the sky islands drift over Hilltop Town.",
+     "motionPrompt": "Pip sits on the rooftop and gazes up, blinking its big eye, the little propeller twitching once; birds glide past the floating islands; slow gentle push-in.",
+     "still": "pip/stills/01-dreaming.jpg?v=436311b8",
+     "thumb": "pip/thumbs/01-dreaming.jpg?v=e8b1b91c",
+     "clip": "pip/clips/01-dreaming.mp4?v=f766c12e",
+     "seconds": 5.042,
+     "render": "ltx",
+     "renderLabel": "LTX 2.5 22B distilled · image-to-video · local ComfyUI on the Mac Studio"
+    },
+    {
+     "id": "02-first-hop",
+     "title": "First Hop",
+     "line": "Pip leaps off a hay bale; the propeller sputters and coughs.",
+     "motionPrompt": "Pip hangs in the air, wobbling as its propeller sputters with tiny puffs of smoke, wings flapping wildly; handheld camera follows the wobble.",
+     "still": "pip/stills/02-first-hop.jpg?v=cf6b5913",
+     "thumb": "pip/thumbs/02-first-hop.jpg?v=07dde1dc",
+     "clip": "pip/clips/02-first-hop.mp4?v=fe0ffdf7",
+     "seconds": 5.042,
+     "render": "ltx",
+     "renderLabel": "LTX 2.5 22B distilled · image-to-video · local ComfyUI on the Mac Studio"
+    },
+    {
+     "id": "03-lift-off",
+     "title": "Lift-Off!",
+     "line": "The propeller finally catches, and Pip soars over the rooftops.",
+     "motionPrompt": "Pip zooms forward through the sky over the village, propeller spinning fast, golden coins sparkling as it passes; camera tracks alongside.",
+     "still": "pip/stills/03-lift-off.jpg?v=a6eea759",
+     "thumb": "pip/thumbs/03-lift-off.jpg?v=6c5251ad",
+     "clip": "pip/clips/03-lift-off.mp4?v=2e79b380",
+     "seconds": 5.042,
+     "render": "ltx",
+     "renderLabel": "LTX 2.5 22B distilled · image-to-video · local ComfyUI on the Mac Studio"
+    },
+    {
+     "id": "04-aurora-storm",
+     "title": "Aurora Storm",
+     "line": "Night falls, and Pip braves the storm clouds under the aurora.",
+     "motionPrompt": "Pip pushes bravely through the wind under the swirling aurora, clouds rolling past and wind streaks flying by; slight camera shake.",
+     "still": "pip/stills/04-aurora-storm.jpg?v=fc2f3c31",
+     "thumb": "pip/thumbs/04-aurora-storm.jpg?v=e27555ae",
+     "clip": "pip/clips/04-aurora-storm.mp4?v=4d159535",
+     "seconds": 5.042,
+     "render": "ltx",
+     "renderLabel": "LTX 2.5 22B distilled · image-to-video · local ComfyUI on the Mac Studio"
+    },
+    {
+     "id": "05-fireworks-home",
+     "title": "Fireworks Home",
+     "line": "Fireworks burst over Hilltop Town as Pip flies home a hero.",
+     "motionPrompt": "Fireworks bloom and sparkle in the night sky while Pip hovers and bobs happily, propeller spinning; slow pull-back.",
+     "still": "pip/stills/05-fireworks-home.jpg?v=fcebd504",
+     "thumb": "pip/thumbs/05-fireworks-home.jpg?v=8f06cd28",
+     "clip": "pip/clips/05-fireworks-home.mp4?v=a648a328",
+     "seconds": 5.042,
+     "render": "ltx",
+     "renderLabel": "LTX 2.5 22B distilled · image-to-video · local ComfyUI on the Mac Studio"
+    }
+   ]
+  },
+  {
+   "id": "robot",
+   "title": "Beep's First Day",
+   "tagline": "A space station story",
+   "logline": "A brand-new helper robot powers up for its very first shift on the space station.",
+   "accent": "#83c7ff",
+   "defaultTrack": "sunny-propeller",
+   "tracks": [
+    "sunny-propeller",
+    "dune-horizon",
+    "firefly-lullaby"
+   ],
+   "shots": [
+    {
+     "id": "01-power-on",
+     "title": "Power On",
+     "line": "Beep boots up in the corridor: systems green, thumbs up!",
+     "motionPrompt": "The robot blinks its glowing blue eyes on, tilts its head and gives a cheerful thumbs-up; control panel lights flicker on around it; slow push-in.",
+     "still": "robot/stills/01-power-on.jpg?v=a2fbe12b",
+     "thumb": "robot/thumbs/01-power-on.jpg?v=c36691bd",
+     "clip": "robot/clips/01-power-on.mp4?v=39fff5b3",
+     "seconds": 5.042,
+     "render": "ltx",
+     "renderLabel": "LTX 2.5 22B distilled · image-to-video · local ComfyUI on the Mac Studio"
+    },
+    {
+     "id": "02-big-door",
+     "title": "The Big Door",
+     "line": "The round door slides open on a workshop full of robots.",
+     "motionPrompt": "The robot steps forward in wonder as the bright workshop hums with activity beyond the round doorway; light spills across the floor; camera glides in.",
+     "still": "robot/stills/02-big-door.jpg?v=ffa20840",
+     "thumb": "robot/thumbs/02-big-door.jpg?v=7b7c6848",
+     "clip": "robot/clips/02-big-door.mp4?v=e5af89a8",
+     "seconds": 5.042,
+     "render": "ltx",
+     "renderLabel": "LTX 2.5 22B distilled · image-to-video · local ComfyUI on the Mac Studio"
+    },
+    {
+     "id": "03-oops",
+     "title": "Oops!",
+     "line": "Too many boxes. Gears everywhere.",
+     "motionPrompt": "The robot wobbles under the tipping stack of boxes as brass gears tumble and bounce across the floor; comic timing, camera holds steady.",
+     "still": "robot/stills/03-oops.jpg?v=6a2d4323",
+     "thumb": "robot/thumbs/03-oops.jpg?v=9b96c7aa",
+     "clip": "robot/clips/03-oops.mp4?v=a3748a1e",
+     "seconds": 5.042,
+     "render": "ltx",
+     "renderLabel": "LTX 2.5 22B distilled · image-to-video · local ComfyUI on the Mac Studio"
+    },
+    {
+     "id": "04-new-friend",
+     "title": "A New Friend",
+     "line": "A tiny orange drone zips in to help pick up the pieces.",
+     "motionPrompt": "The little orange drone bobs in the air and hands a gear to the robot, who tilts its head happily; soft orbiting camera.",
+     "still": "robot/stills/04-new-friend.jpg?v=8bebdd52",
+     "thumb": "robot/thumbs/04-new-friend.jpg?v=0b0bcb53",
+     "clip": "robot/clips/04-new-friend.mp4?v=b3eb1393",
+     "seconds": 5.042,
+     "render": "ltx",
+     "renderLabel": "LTX 2.5 22B distilled · image-to-video · local ComfyUI on the Mac Studio"
+    },
+    {
+     "id": "05-best-day",
+     "title": "Best First Day",
+     "line": "Shift over: two friends and a ringed planet outside the window.",
+     "motionPrompt": "The robot and the little drone gaze out of the big window as the ringed planet slowly turns and stars twinkle; slow pull-back.",
+     "still": "robot/stills/05-best-day.jpg?v=02b63232",
+     "thumb": "robot/thumbs/05-best-day.jpg?v=d3cd46df",
+     "clip": "robot/clips/05-best-day.mp4?v=74530c23",
+     "seconds": 5.042,
+     "render": "ltx",
+     "renderLabel": "LTX 2.5 22B distilled · image-to-video · local ComfyUI on the Mac Studio"
+    }
+   ]
+  },
+  {
+   "id": "caravan",
+   "title": "The Sandstorm Caravan",
+   "tagline": "An epic of the dunes",
+   "logline": "Young Zara leads her family’s camels across the great desert, straight into a storm.",
+   "accent": "#f0a56d",
+   "defaultTrack": "dune-horizon",
+   "tracks": [
+    "sunny-propeller",
+    "dune-horizon",
+    "firefly-lullaby"
+   ],
+   "shots": [
+    {
+     "id": "01-dawn-departure",
+     "title": "Dawn Departure",
+     "line": "At first light, Zara leads the caravan out across the golden dunes.",
+     "motionPrompt": "Zara walks forward leading the camels across the dunes, robes and scarf swaying, sand trickling from their footsteps; wide tracking shot.",
+     "still": "caravan/stills/01-dawn-departure.jpg?v=eeb612af",
+     "thumb": "caravan/thumbs/01-dawn-departure.jpg?v=cb651b8d",
+     "clip": "caravan/clips/01-dawn-departure.mp4?v=8ec9aa2a",
+     "seconds": 5.042,
+     "render": "ltx",
+     "renderLabel": "LTX 2.5 22B distilled · image-to-video · local ComfyUI on the Mac Studio"
+    },
+    {
+     "id": "02-wall-of-sand",
+     "title": "The Wall of Sand",
+     "line": "On the ridge, Zara spots a towering sandstorm rolling in.",
+     "motionPrompt": "Zara points as the enormous sandstorm wall billows and rolls closer, camels shifting nervously, her scarf starting to whip in the wind; slow push-in.",
+     "still": "caravan/stills/02-wall-of-sand.jpg?v=431b9691",
+     "thumb": "caravan/thumbs/02-wall-of-sand.jpg?v=f2289070",
+     "clip": "caravan/clips/02-wall-of-sand.mp4?v=eac320fc",
+     "seconds": 5.042,
+     "render": "ltx",
+     "renderLabel": "LTX 2.5 22B distilled · image-to-video · local ComfyUI on the Mac Studio"
+    },
+    {
+     "id": "03-into-the-storm",
+     "title": "Into the Storm",
+     "line": "Lantern high, Zara guides the camels through the swirling sand.",
+     "motionPrompt": "Zara holds the glowing lantern high and pushes through swirling sand, camels following, robes whipping; dust streams across the frame.",
+     "still": "caravan/stills/03-into-the-storm.jpg?v=fbbdc89d",
+     "thumb": "caravan/thumbs/03-into-the-storm.jpg?v=06a656ef",
+     "clip": "caravan/clips/03-into-the-storm.mp4?v=bca68ebd",
+     "seconds": 5.042,
+     "render": "ltx",
+     "renderLabel": "LTX 2.5 22B distilled · image-to-video · local ComfyUI on the Mac Studio"
+    },
+    {
+     "id": "04-light-in-the-dust",
+     "title": "Light in the Dust",
+     "line": "The storm parts, revealing a shining oasis city.",
+     "motionPrompt": "The sand settles and golden light breaks through, Zara gasps and steps forward as the oasis city glows in the distance; slow crane up.",
+     "still": "caravan/stills/04-light-in-the-dust.jpg?v=c01074a2",
+     "thumb": "caravan/thumbs/04-light-in-the-dust.jpg?v=e07e9774",
+     "clip": "caravan/clips/04-light-in-the-dust.mp4?v=2bcc76d8",
+     "seconds": 5.042,
+     "render": "ltx",
+     "renderLabel": "LTX 2.5 22B distilled · image-to-video · local ComfyUI on the Mac Studio"
+    },
+    {
+     "id": "05-oasis-at-dusk",
+     "title": "Oasis at Dusk",
+     "line": "Safe at last: camels drink, and Zara laughs by the water.",
+     "motionPrompt": "The camels drink from the oasis pool, Zara laughs and splashes water, lanterns flicker and palm leaves sway at sunset; gentle pull-back.",
+     "still": "caravan/stills/05-oasis-at-dusk.jpg?v=6d8ff49f",
+     "thumb": "caravan/thumbs/05-oasis-at-dusk.jpg?v=22ab0c2b",
+     "clip": "caravan/clips/05-oasis-at-dusk.mp4?v=71504fc2",
+     "seconds": 5.042,
+     "render": "ltx",
+     "renderLabel": "LTX 2.5 22B distilled · image-to-video · local ComfyUI on the Mac Studio"
+    }
+   ]
+  },
+  {
+   "id": "kitten",
+   "title": "Marmalade and the Blue Butterfly",
+   "tagline": "A cozy little adventure",
+   "logline": "An orange tabby kitten follows a blue butterfly out the window, and finds the way home.",
+   "accent": "#f3c27a",
+   "defaultTrack": "firefly-lullaby",
+   "tracks": [
+    "sunny-propeller",
+    "dune-horizon",
+    "firefly-lullaby"
+   ],
+   "shots": [
+    {
+     "id": "01-window",
+     "title": "The Window",
+     "line": "Marmalade spots a bright blue butterfly at the open window.",
+     "motionPrompt": "The kitten watches the blue butterfly flutter by the window, head tracking it, whiskers twitching, tail swishing; gentle push-in.",
+     "still": "kitten/stills/01-window.jpg?v=bb0c0d7b",
+     "thumb": "kitten/thumbs/01-window.jpg?v=26dbb292",
+     "clip": "kitten/clips/01-window.mp4?v=085a8c1b",
+     "seconds": 5.042,
+     "render": "ltx",
+     "renderLabel": "LTX 2.5 22B distilled · image-to-video · local ComfyUI on the Mac Studio"
+    },
+    {
+     "id": "02-chase",
+     "title": "The Chase",
+     "line": "Out in the sunflowers, the chase is on!",
+     "motionPrompt": "The kitten bounds joyfully after the butterfly through the sunflowers, petals drifting; camera tracks alongside.",
+     "still": "kitten/stills/02-chase.jpg?v=c3b73efd",
+     "thumb": "kitten/thumbs/02-chase.jpg?v=ebf64466",
+     "clip": "kitten/clips/02-chase.mp4?v=ab9d421b",
+     "seconds": 5.042,
+     "render": "ltx",
+     "renderLabel": "LTX 2.5 22B distilled · image-to-video · local ComfyUI on the Mac Studio"
+    },
+    {
+     "id": "03-lost-in-rain",
+     "title": "Lost in the Rain",
+     "line": "Clouds roll in; the garden suddenly feels very big.",
+     "motionPrompt": "Rain begins to fall, the kitten looks around and its ears droop, sunflowers sway in the wind under dark clouds; slow push-in.",
+     "still": "kitten/stills/03-lost-in-rain.jpg?v=977c75e0",
+     "thumb": "kitten/thumbs/03-lost-in-rain.jpg?v=83eae3b7",
+     "clip": "kitten/clips/03-lost-in-rain.mp4?v=af18264b",
+     "seconds": 5.042,
+     "render": "ltx",
+     "renderLabel": "LTX 2.5 22B distilled · image-to-video · local ComfyUI on the Mac Studio"
+    },
+    {
+     "id": "04-fireflies",
+     "title": "Follow the Fireflies",
+     "line": "Under a mushroom, a glowing trail points the way home.",
+     "motionPrompt": "Fireflies drift and glow along a golden trail while the butterfly flutters ahead; the kitten looks up in wonder; gentle camera drift.",
+     "still": "kitten/stills/04-fireflies.jpg?v=d9c9943e",
+     "thumb": "kitten/thumbs/04-fireflies.jpg?v=0573dd0f",
+     "clip": "kitten/clips/04-fireflies.mp4?v=1b2413b7",
+     "seconds": 5.042,
+     "render": "ltx",
+     "renderLabel": "LTX 2.5 22B distilled · image-to-video · local ComfyUI on the Mac Studio"
+    },
+    {
+     "id": "05-home",
+     "title": "Home by the Fire",
+     "line": "Warm, dry and sleepy by the fire, white-tipped tail tucked in.",
+     "motionPrompt": "The kitten dozes by the crackling fire, slow breathing, eyes drifting closed, firelight flickering; the butterfly rests on the windowsill; very slow push-in.",
+     "still": "kitten/stills/05-home.jpg?v=1660282a",
+     "thumb": "kitten/thumbs/05-home.jpg?v=87e2be5a",
+     "clip": "kitten/clips/05-home.mp4?v=d3a46e00",
+     "seconds": 5.042,
+     "render": "ltx",
+     "renderLabel": "LTX 2.5 22B distilled · image-to-video · local ComfyUI on the Mac Studio"
+    }
+   ]
+  }
+ ]
+}

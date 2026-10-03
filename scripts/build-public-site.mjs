@@ -31,5 +31,8 @@ for (const file of files) {
   mkdirSync(join(destination, '..'), { recursive: true });
   cpSync(join(root, file), destination);
 }
+for (const dir of ['playground', 'playground-assets', 'playground-media', 'brand', 'jelly-lab']) {
+  cpSync(join(root, dir), join(output, dir), { recursive: true });
+}
 writeFileSync(join(output, '.nojekyll'), '');
 console.log(`Built public site with ${files.length} files.`);

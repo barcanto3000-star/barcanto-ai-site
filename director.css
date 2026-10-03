@@ -209,3 +209,4 @@ h1 em, h2 em { font-style: normal; font-weight: 700; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
 }
+#site-nav a { white-space: nowrap }

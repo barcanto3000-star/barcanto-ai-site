@@ -1,0 +1,333 @@
+{
+  "updated": "2026-10-02T10:25:26Z",
+  "model": "LTX 2.5 Fast",
+  "host": "Herms",
+  "backend": "ltxd",
+  "done": {
+    "lighthouse-storm__wave-push": {
+      "video": "clips/lighthouse-storm__wave-push.mp4?v=bbe64618",
+      "poster": "posters/lighthouse-storm__wave-push.jpg?v=bbe64618",
+      "audio": "audio/lighthouse-storm__wave-push.m4a?v=bbe64618",
+      "bytes": 3319977,
+      "duration": 20.04,
+      "seed": 5136683
+    },
+    "sahara-caravan__caravan-track": {
+      "video": "clips/sahara-caravan__caravan-track.mp4?v=4983382e",
+      "poster": "posters/sahara-caravan__caravan-track.jpg?v=4983382e",
+      "audio": "audio/sahara-caravan__caravan-track.m4a?v=4983382e",
+      "bytes": 2152216,
+      "duration": 20.04,
+      "seed": 112539971
+    },
+    "aurora-summit__aurora-crane": {
+      "video": "clips/aurora-summit__aurora-crane.mp4?v=5db0fcdb",
+      "poster": "posters/aurora-summit__aurora-crane.jpg?v=5db0fcdb",
+      "audio": "audio/aurora-summit__aurora-crane.m4a?v=5db0fcdb",
+      "bytes": 2816676,
+      "duration": 20.04,
+      "seed": 418265093
+    },
+    "coral-reef__diver-track": {
+      "video": "clips/coral-reef__diver-track.mp4?v=593cd40b",
+      "poster": "posters/coral-reef__diver-track.jpg?v=593cd40b",
+      "audio": "audio/coral-reef__diver-track.m4a?v=593cd40b",
+      "bytes": 3312669,
+      "duration": 20.04,
+      "seed": 10256008
+    },
+    "pottery-studio__bowl-push": {
+      "video": "clips/pottery-studio__bowl-push.mp4?v=82e4b1bf",
+      "poster": "posters/pottery-studio__bowl-push.jpg?v=82e4b1bf",
+      "audio": "audio/pottery-studio__bowl-push.m4a?v=82e4b1bf",
+      "bytes": 2528104,
+      "duration": 20.04,
+      "seed": 13412601
+    },
+    "robot-lab__wake-push": {
+      "video": "clips/robot-lab__wake-push.mp4?v=5799b578",
+      "poster": "posters/robot-lab__wake-push.jpg?v=5799b578",
+      "audio": "audio/robot-lab__wake-push.m4a?v=5799b578",
+      "bytes": 2041990,
+      "duration": 20.04,
+      "seed": 246753611
+    },
+    "neon-alley__walk-glow": {
+      "video": "clips/neon-alley__walk-glow.mp4?v=a68ffedf",
+      "poster": "posters/neon-alley__walk-glow.jpg?v=a68ffedf",
+      "audio": "audio/neon-alley__walk-glow.m4a?v=a68ffedf",
+      "bytes": 3288722,
+      "duration": 20.04,
+      "seed": 54856866
+    },
+    "japanese-garden__petal-push": {
+      "video": "clips/japanese-garden__petal-push.mp4?v=2e2cc3c9",
+      "poster": "posters/japanese-garden__petal-push.jpg?v=2e2cc3c9",
+      "audio": "audio/japanese-garden__petal-push.m4a?v=2e2cc3c9",
+      "bytes": 3319201,
+      "duration": 20.04,
+      "seed": 731904226
+    },
+    "night-carnival__wheel-push": {
+      "video": "clips/night-carnival__wheel-push.mp4?v=d7f067e9",
+      "poster": "posters/night-carnival__wheel-push.jpg?v=d7f067e9",
+      "audio": "audio/night-carnival__wheel-push.m4a?v=d7f067e9",
+      "bytes": 2979740,
+      "duration": 20.04,
+      "seed": 149562809
+    },
+    "rainforest-falls__falls-push": {
+      "video": "clips/rainforest-falls__falls-push.mp4?v=775408c6",
+      "poster": "posters/rainforest-falls__falls-push.jpg?v=775408c6",
+      "audio": "audio/rainforest-falls__falls-push.m4a?v=775408c6",
+      "bytes": 3276003,
+      "duration": 20.04,
+      "seed": 228676069
+    },
+    "lighthouse-storm__lamp-crane": {
+      "video": "clips/lighthouse-storm__lamp-crane.mp4?v=efe37060",
+      "poster": "posters/lighthouse-storm__lamp-crane.jpg?v=efe37060",
+      "audio": "audio/lighthouse-storm__lamp-crane.m4a?v=efe37060",
+      "bytes": 3331406,
+      "duration": 20.04,
+      "seed": 109236979
+    },
+    "lighthouse-storm__cast-orbit": {
+      "video": "clips/lighthouse-storm__cast-orbit.mp4?v=df0f4362",
+      "poster": "posters/lighthouse-storm__cast-orbit.jpg?v=df0f4362",
+      "audio": "audio/lighthouse-storm__cast-orbit.m4a?v=df0f4362",
+      "bytes": 3315906,
+      "duration": 20.04,
+      "seed": 129352783
+    },
+    "lighthouse-storm__sun-pullback": {
+      "video": "clips/lighthouse-storm__sun-pullback.mp4?v=aa304fdc",
+      "poster": "posters/lighthouse-storm__sun-pullback.jpg?v=aa304fdc",
+      "audio": "audio/lighthouse-storm__sun-pullback.m4a?v=aa304fdc",
+      "bytes": 3323217,
+      "duration": 20.04,
+      "seed": 47024399
+    },
+    "sahara-caravan__stars-crane": {
+      "video": "clips/sahara-caravan__stars-crane.mp4?v=95e34b81",
+      "poster": "posters/sahara-caravan__stars-crane.jpg?v=95e34b81",
+      "audio": "audio/sahara-caravan__stars-crane.m4a?v=95e34b81",
+      "bytes": 2490784,
+      "duration": 20.04,
+      "seed": 159035607
+    },
+    "sahara-caravan__sand-storm": {
+      "video": "clips/sahara-caravan__sand-storm.mp4?v=a644383d",
+      "poster": "posters/sahara-caravan__sand-storm.jpg?v=a644383d",
+      "audio": "audio/sahara-caravan__sand-storm.m4a?v=a644383d",
+      "bytes": 2498819,
+      "duration": 20.04,
+      "seed": 139609550
+    },
+    "sahara-caravan__halt-push": {
+      "video": "clips/sahara-caravan__halt-push.mp4?v=6bf30d61",
+      "poster": "posters/sahara-caravan__halt-push.jpg?v=6bf30d61",
+      "audio": "audio/sahara-caravan__halt-push.m4a?v=6bf30d61",
+      "bytes": 2000047,
+      "duration": 20.04,
+      "seed": 21320443
+    },
+    "aurora-summit__climber-orbit": {
+      "video": "clips/aurora-summit__climber-orbit.mp4?v=103af70b",
+      "poster": "posters/aurora-summit__climber-orbit.jpg?v=103af70b",
+      "audio": "audio/aurora-summit__climber-orbit.m4a?v=103af70b",
+      "bytes": 3333217,
+      "duration": 20.04,
+      "seed": 84800048
+    },
+    "aurora-summit__spindrift": {
+      "video": "clips/aurora-summit__spindrift.mp4?v=95dd6e00",
+      "poster": "posters/aurora-summit__spindrift.jpg?v=95dd6e00",
+      "audio": "audio/aurora-summit__spindrift.m4a?v=95dd6e00",
+      "bytes": 3084829,
+      "duration": 20.04,
+      "seed": 76959887
+    },
+    "aurora-summit__ridge-walk": {
+      "video": "clips/aurora-summit__ridge-walk.mp4?v=9a47bbc5",
+      "poster": "posters/aurora-summit__ridge-walk.jpg?v=9a47bbc5",
+      "audio": "audio/aurora-summit__ridge-walk.m4a?v=9a47bbc5",
+      "bytes": 2679467,
+      "duration": 20.04,
+      "seed": 94855779
+    },
+    "coral-reef__school-push": {
+      "video": "clips/coral-reef__school-push.mp4?v=56576ff8",
+      "poster": "posters/coral-reef__school-push.jpg?v=56576ff8",
+      "audio": "audio/coral-reef__school-push.m4a?v=56576ff8",
+      "bytes": 3332057,
+      "duration": 20.04,
+      "seed": 99990530
+    },
+    "coral-reef__surface-crane": {
+      "video": "clips/coral-reef__surface-crane.mp4?v=d9e23c1c",
+      "poster": "posters/coral-reef__surface-crane.jpg?v=d9e23c1c",
+      "audio": "audio/coral-reef__surface-crane.m4a?v=d9e23c1c",
+      "bytes": 3276937,
+      "duration": 20.04,
+      "seed": 174621431
+    },
+    "coral-reef__hover-orbit": {
+      "video": "clips/coral-reef__hover-orbit.mp4?v=af9f0a32",
+      "poster": "posters/coral-reef__hover-orbit.jpg?v=af9f0a32",
+      "audio": "audio/coral-reef__hover-orbit.m4a?v=af9f0a32",
+      "bytes": 3323095,
+      "duration": 20.04,
+      "seed": 146759564
+    },
+    "pottery-studio__wheel-orbit": {
+      "video": "clips/pottery-studio__wheel-orbit.mp4?v=4aa28af5",
+      "poster": "posters/pottery-studio__wheel-orbit.jpg?v=4aa28af5",
+      "audio": "audio/pottery-studio__wheel-orbit.m4a?v=4aa28af5",
+      "bytes": 3268645,
+      "duration": 20.04,
+      "seed": 147625287
+    },
+    "pottery-studio__studio-reveal": {
+      "video": "clips/pottery-studio__studio-reveal.mp4?v=faa917e7",
+      "poster": "posters/pottery-studio__studio-reveal.jpg?v=faa917e7",
+      "audio": "audio/pottery-studio__studio-reveal.m4a?v=faa917e7",
+      "bytes": 3162316,
+      "duration": 20.04,
+      "seed": 70423325
+    },
+    "pottery-studio__golden-hour": {
+      "video": "clips/pottery-studio__golden-hour.mp4?v=fa798ff6",
+      "poster": "posters/pottery-studio__golden-hour.jpg?v=fa798ff6",
+      "audio": "audio/pottery-studio__golden-hour.m4a?v=fa798ff6",
+      "bytes": 2078365,
+      "duration": 20.04,
+      "seed": 145035437
+    },
+    "robot-lab__robot-orbit": {
+      "video": "clips/robot-lab__robot-orbit.mp4?v=e2d13c95",
+      "poster": "posters/robot-lab__robot-orbit.jpg?v=e2d13c95",
+      "audio": "audio/robot-lab__robot-orbit.m4a?v=e2d13c95",
+      "bytes": 2796759,
+      "duration": 20.04,
+      "seed": 12655882
+    },
+    "robot-lab__lights-on": {
+      "video": "clips/robot-lab__lights-on.mp4?v=cb482f36",
+      "poster": "posters/robot-lab__lights-on.jpg?v=cb482f36",
+      "audio": "audio/robot-lab__lights-on.m4a?v=cb482f36",
+      "bytes": 2898776,
+      "duration": 20.04,
+      "seed": 125774075
+    },
+    "robot-lab__hand-study": {
+      "video": "clips/robot-lab__hand-study.mp4?v=5d072d69",
+      "poster": "posters/robot-lab__hand-study.jpg?v=5d072d69",
+      "audio": "audio/robot-lab__hand-study.m4a?v=5d072d69",
+      "bytes": 2291348,
+      "duration": 20.04,
+      "seed": 158490302
+    },
+    "neon-alley__rain-crane": {
+      "video": "clips/neon-alley__rain-crane.mp4?v=29c475f5",
+      "poster": "posters/neon-alley__rain-crane.jpg?v=29c475f5",
+      "audio": "audio/neon-alley__rain-crane.m4a?v=29c475f5",
+      "bytes": 3277527,
+      "duration": 20.04,
+      "seed": 262010946
+    },
+    "neon-alley__neon-out": {
+      "video": "clips/neon-alley__neon-out.mp4?v=4005686e",
+      "poster": "posters/neon-alley__neon-out.jpg?v=4005686e",
+      "audio": "audio/neon-alley__neon-out.m4a?v=4005686e",
+      "bytes": 3286790,
+      "duration": 20.04,
+      "seed": 59951982
+    },
+    "neon-alley__umbrella-orbit": {
+      "video": "clips/neon-alley__umbrella-orbit.mp4?v=3be4c9f4",
+      "poster": "posters/neon-alley__umbrella-orbit.jpg?v=3be4c9f4",
+      "audio": "audio/neon-alley__umbrella-orbit.m4a?v=3be4c9f4",
+      "bytes": 3289333,
+      "duration": 20.04,
+      "seed": 16971574
+    },
+    "japanese-garden__koi-crane": {
+      "video": "clips/japanese-garden__koi-crane.mp4?v=ccd5bb7d",
+      "poster": "posters/japanese-garden__koi-crane.jpg?v=ccd5bb7d",
+      "audio": "audio/japanese-garden__koi-crane.m4a?v=ccd5bb7d",
+      "bytes": 3328604,
+      "duration": 20.04,
+      "seed": 4589584
+    },
+    "japanese-garden__pond-track": {
+      "video": "clips/japanese-garden__pond-track.mp4?v=1aafe2ac",
+      "poster": "posters/japanese-garden__pond-track.jpg?v=1aafe2ac",
+      "audio": "audio/japanese-garden__pond-track.m4a?v=1aafe2ac",
+      "bytes": 3306549,
+      "duration": 20.04,
+      "seed": 208658139
+    },
+    "japanese-garden__soft-rain": {
+      "video": "clips/japanese-garden__soft-rain.mp4?v=de2307b3",
+      "poster": "posters/japanese-garden__soft-rain.jpg?v=de2307b3",
+      "audio": "audio/japanese-garden__soft-rain.m4a?v=de2307b3",
+      "bytes": 3295344,
+      "duration": 20.04,
+      "seed": 224621477
+    },
+    "night-carnival__balloon-crane": {
+      "video": "clips/night-carnival__balloon-crane.mp4?v=a2e6aeb9",
+      "poster": "posters/night-carnival__balloon-crane.jpg?v=a2e6aeb9",
+      "audio": "audio/night-carnival__balloon-crane.m4a?v=a2e6aeb9",
+      "bytes": 1988419,
+      "duration": 20.04,
+      "seed": 107396211
+    },
+    "night-carnival__fireworks": {
+      "video": "clips/night-carnival__fireworks.mp4?v=beb830e4",
+      "poster": "posters/night-carnival__fireworks.jpg?v=beb830e4",
+      "audio": "audio/night-carnival__fireworks.m4a?v=beb830e4",
+      "bytes": 2819072,
+      "duration": 20.04,
+      "seed": 11287460
+    },
+    "night-carnival__child-orbit": {
+      "video": "clips/night-carnival__child-orbit.mp4?v=aaa99612",
+      "poster": "posters/night-carnival__child-orbit.jpg?v=aaa99612",
+      "audio": "audio/night-carnival__child-orbit.m4a?v=aaa99612",
+      "bytes": 3348011,
+      "duration": 20.04,
+      "seed": 254593381
+    },
+    "rainforest-falls__falls-crane": {
+      "video": "clips/rainforest-falls__falls-crane.mp4?v=81c209e8",
+      "poster": "posters/rainforest-falls__falls-crane.jpg?v=81c209e8",
+      "audio": "audio/rainforest-falls__falls-crane.m4a?v=81c209e8",
+      "bytes": 3296372,
+      "duration": 20.04,
+      "seed": 188074692
+    },
+    "rainforest-falls__hiker-track": {
+      "video": "clips/rainforest-falls__hiker-track.mp4?v=b86a6c6d",
+      "poster": "posters/rainforest-falls__hiker-track.jpg?v=b86a6c6d",
+      "audio": "audio/rainforest-falls__hiker-track.m4a?v=b86a6c6d",
+      "bytes": 3319674,
+      "duration": 20.04,
+      "seed": 192139127
+    },
+    "rainforest-falls__downpour": {
+      "video": "clips/rainforest-falls__downpour.mp4?v=f3045e74",
+      "poster": "posters/rainforest-falls__downpour.jpg?v=f3045e74",
+      "audio": "audio/rainforest-falls__downpour.m4a?v=f3045e74",
+      "bytes": 3201790,
+      "duration": 20.04,
+      "seed": 242083075
+    }
+  },
+  "pending": [],
+  "current": null,
+  "gated": false,
+  "avg_render_seconds": 687,
+  "eta_seconds": 0
+}
