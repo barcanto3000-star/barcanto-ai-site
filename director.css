@@ -39,6 +39,7 @@ img { max-width: 100%; }
 .menu-button { display: none; }
 .free-playground-btn { display: inline-flex; align-items: center; gap: 22px; min-height: 58px; margin-bottom: 30px; padding: 0 28px; border-radius: 999px; color: #101510; background: var(--accent); font-size: 18px; font-weight: 800; letter-spacing: .01em; box-shadow: 0 10px 32px rgba(0,0,0,.35), 0 0 0 1px rgba(220,255,160,.35); transition: transform .2s ease, background .2s ease; }
 .free-playground-btn:hover { transform: translateY(-3px); background: #dcffa0; }
+.fp-trail { display: inline-flex; align-items: center; gap: 10px; margin-left: auto; }
 .fp-click { font-size: 13px; font-weight: 500; letter-spacing: .02em; opacity: .85; white-space: nowrap; }
 
 .hero { position: relative; min-height: min(940px, 100svh); min-height: max(780px, 100svh); display: flex; align-items: center; isolation: isolate; background: #121a20; }
