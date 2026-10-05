@@ -39,7 +39,8 @@ img { max-width: 100%; }
 .menu-button { display: none; }
 .free-playground-btn { display: inline-flex; align-items: center; gap: 22px; min-height: 58px; margin-bottom: 30px; padding: 0 28px; border-radius: 999px; color: #101510; background: var(--accent); font-size: 18px; font-weight: 800; letter-spacing: .01em; box-shadow: 0 10px 32px rgba(0,0,0,.35), 0 0 0 1px rgba(220,255,160,.35); transition: transform .2s ease, background .2s ease; }
 .free-playground-btn:hover { transform: translateY(-3px); background: #dcffa0; }
-.fp-trail { display: inline-flex; align-items: center; gap: 10px; margin-left: auto; }
+.fp-label { white-space: nowrap; }
+.fp-trail { display: inline-flex; align-items: center; gap: 10px; margin-left: auto; flex-shrink: 0; }
 .fp-click { font-size: 13px; font-weight: 500; letter-spacing: .02em; opacity: .85; white-space: nowrap; }
 
 .hero { position: relative; min-height: min(940px, 100svh); min-height: max(780px, 100svh); display: flex; align-items: center; isolation: isolate; background: #121a20; }
@@ -211,7 +212,7 @@ h1 em, h2 em { font-style: normal; font-weight: 700; }
 }
 @media (max-width: 760px) {
   .hero-content { padding-top: 100px; }
-  .free-playground-btn { display: flex; align-items: center; justify-content: space-between; gap: 16px; width: min(100%, 330px); min-height: 66px; margin-bottom: 28px; padding: 0 28px; border-radius: 999px; color: #101510; background: var(--accent); font-size: 20px; font-weight: 800; letter-spacing: .01em; box-shadow: 0 10px 32px rgba(0,0,0,.4), 0 0 0 1px rgba(220,255,160,.35); }
+  .free-playground-btn { display: flex; align-items: center; justify-content: space-between; gap: 12px; width: 100%; flex-wrap: nowrap; min-height: 66px; margin-bottom: 28px; padding: 0 28px; border-radius: 999px; color: #101510; background: var(--accent); font-size: 20px; font-weight: 800; letter-spacing: .01em; box-shadow: 0 10px 32px rgba(0,0,0,.4), 0 0 0 1px rgba(220,255,160,.35); }
   .free-playground-btn:active { background: #dcffa0; }
   .fp-click { font-size: 14px; font-weight: 500; opacity: .9; }
 }
